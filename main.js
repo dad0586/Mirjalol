@@ -1,11 +1,11 @@
 
 const person = {
-    firstName: "John",
-    lastName : "Doe",
-    age      :  50
-  };
-  
-  let x = "firstName";
-  let y = "age";
-  console.log(person[x] + " is " + person[y] + " years old");
-  
+  firstname : "John",
+  lastname: "Doe",
+  age: 50,
+  eyecolor: "blue"
+};
+delete person.lastname;
+
+person.nationality = "English";
+  console.log(person.firstname + " is " + person.lastname + person.nationality);
