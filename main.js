@@ -1,2 +1,11 @@
-const car = {type:"Fiat", model:"500", color:"white"};
-console.log("The car type is " + car.type);
+
+const person = {
+    firstName: "John",
+    lastName : "Doe",
+    age      :  50
+  };
+  
+  let x = "firstName";
+  let y = "age";
+  console.log(person[x] + " is " + person[y] + " years old");
+  
