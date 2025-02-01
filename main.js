@@ -1,11 +1,6 @@
-
-const person = {
-  firstname : "John",
-  lastname: "Doe",
-  age: 50,
-  eyecolor: "blue"
-};
-delete person.lastname;
-
-person.nationality = "English";
-  console.log(person.firstname + " is " + person.lastname + person.nationality);
+alert('biror kod');
+// "use strict" quyida ko'rsatilgan va u e'tiborga olinmaydi, u yuqorida bo'lishi kerak
+ 
+('use strict');
+ 
+// qat'iy rejim yoqilmagan
