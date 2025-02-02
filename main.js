@@ -1,44 +1,25 @@
- // function declaration
- 
- fDeclation (); // hohlagan  joyimzda chaqirib ishlatishimz mumkin
 
- function fDeclation () {
-    console.log("Hello function declation");
- }
-  fDeclation ();
-  fDeclation ();
-  fDeclation ();
- 
-// function expression
+// const maxsulot = function (product, tax) {
+// let total = 0;
+
+// for (let i=0; i<=maxsulot.length; i++){
+//     total += product[i] + product[i] * tax;
+// }
+// return total;
+// }
+
+// const result = maxsulot([10, 13, 45], 0.2)
+// console.log(result);
+
+
+const maxsulot = (product, tax) => {
+    let total = 0;
     
- // bunda tepada chaqirib bolmaydi  fExpression ();
- const fExpression = function () {
-    console.log("Hello function expression");
- }
-  fExpression ();
-  fExpression ();
-  fExpression ();
-
-// arrow function
- // buni ham tepada chaqirib bolmaydi
-const fArrow = () => {
-    console.log("Hello Arrow function ");
-}
-fArrow();
-fArrow();
-fArrow();
-
-
-const fExpression1 = function (name, day) {
-    console.log(` Hayrli ${day} ${name}`);
-}
-
-fExpression1('Mirjalol', 'tong');
-
-
-
-const fExpression2 = function (name, day= 'kun') {
-    console.log(` Hayrli ${day} ${name}`);
-}
-
-fExpression2('Mirjalol', 'kech');
+    for (let i=0; i<=maxsulot.length; i++){
+        total += product[i] + product[i] * tax;
+    }
+    return total;
+    }
+    
+    const result = maxsulot([10, 13, 45], 0.2)
+    console.log(result);
