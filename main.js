@@ -27,3 +27,18 @@ const fArrow = () => {
 fArrow();
 fArrow();
 fArrow();
+
+
+const fExpression1 = function (name, day) {
+    console.log(` Hayrli ${day} ${name}`);
+}
+
+fExpression1('Mirjalol', 'tong');
+
+
+
+const fExpression2 = function (name, day= 'kun') {
+    console.log(` Hayrli ${day} ${name}`);
+}
+
+fExpression2('Mirjalol', 'kech');
