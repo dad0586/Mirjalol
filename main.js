@@ -1,6 +1,10 @@
+const ul = document.querySelector('ul')
 const button = document.querySelector('button')
 button.addEventListener( 'click', () => {
-    console.log("you clicked me");
+    
+    const li = document.createElement('li')
+    li.textContent = 'Mirjalol  ✌️'
+    ul.appendChild(li)
     
 })
 
@@ -10,8 +14,10 @@ const items = document.querySelectorAll('li')
 items.forEach((item) =>{
     item.addEventListener('click' , (e) => {
         // console.log(item);
-        item.style.textDecoration = 'line-through'
-        e.target.style.opacity = '0.8'
+        // item.style.textDecoration = 'line-through'
+        // e.target.style.opacity = '0.8'
+        item.remove();
         
     })
 })
+
