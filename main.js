@@ -7,3 +7,4 @@ para.forEach((text) => {
         text.classList.add('error');
     }
 });
+ 
