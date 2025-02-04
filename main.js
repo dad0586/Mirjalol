@@ -19,4 +19,9 @@ const sortedMovies = movies.sort((a, b) => {
 console.log('sortedMovies');
 console.log(sortedMovies);
 
+const age = 15;
+const year = 2000;
+age > 20 ? console.log("togri") : console.log('xato');
+year > 1996 && console.log('togri tanlov');
+
 
