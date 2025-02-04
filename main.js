@@ -1,15 +1,7 @@
-setTimeout(() => {
-    console.log('hiiiiii');
+console.log(new Date());
+const now = new Date();
 
-}, 3000)
-
-
-
-function callMe() {
-    alert('Hiii Javascript')
-}
-
-
-setTimeout(() => {
-    callMe ()
-}, 2000)
+const today = now.getDate()
+const month = now.getMonth()
+const year = now.getFullYear()
+console.log('today ' + today + ' month ' + month + ' year ' + year );
