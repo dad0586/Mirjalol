@@ -1,12 +1,16 @@
 const movies = [
-    {name: 'Avatar' , year: 2022, rating: 9 },
-    {name: 'Bable' , year: 2010, rating: 5 },
-    {name: 'Shrek' , year: 2009, rating: 9 },
-    {name: 'Avatar 2' , year: 2024, rating: 7 },
-    {name: 'Mufassa ' , year: 2024, rating: 8 }
+    { name: 'Avatar', year: 2022, rating: 9 },
+    { name: 'Bable', year: 2010, rating: 5 },
+    { name: 'Shrek', year: 2009, rating: 9 },
+    { name: 'Avatar 2', year: 2024, rating: 7 },
+    { name: 'Mufassa ', year: 2024, rating: 8 }
 ]
 
-const filterMovies = movies.filter ((movie) => {
-    return movie.year < 2015;
+const mapMovies = movies.map((movie) => {
+    return { name: movie.name, year: movie.year, rating: movie.rating + 1 }
 })
-console.log(filterMovies);
+console.log(mapMovies);
+console.log(movies);
+
+
+
