@@ -16,8 +16,15 @@ items.forEach((item) =>{
         // console.log(item);
         // item.style.textDecoration = 'line-through'
         // e.target.style.opacity = '0.8'
-        item.remove();
+        // item.remove();
         
     })
 })
+
+ul.addEventListener('click', (e) => {
+    if(e.target.nodeName == 'LI'){
+        e.target.remove();
+    }
+    
+} )
 
