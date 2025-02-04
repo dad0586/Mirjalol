@@ -6,11 +6,17 @@ const movies = [
     { name: 'Mufassa ', year: 2024, rating: 8 }
 ]
 
-const mapMovies = movies.map((movie) => {
-    return { name: movie.name, year: movie.year, rating: movie.rating + 1 }
-})
-console.log(mapMovies);
-console.log(movies);
+// const mapMovies = movies.map((movie) => {
+//     return { name: movie.name, year: movie.year, rating: movie.rating + 1 }
+// })
+// console.log(mapMovies);
+// console.log(movies);
 
+
+const sortedMovies = movies.sort((a, b) => {
+    return a.rating - b.rating;
+})
+console.log('sortedMovies');
+console.log(sortedMovies);
 
 
