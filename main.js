@@ -25,4 +25,4 @@ newPerson.age = 18
 console.log('person ' , person);
 console.log('newPerson ' , newPerson);
 
-// ikkalasini asosiy farqi shundaki primative oxirgi ozgartirilgan malumotni hammasiga qollamayabdi non primativeda esa qollayabdi ikkallasi hab ozgargan
+// ikkalasini asosiy farqi shundaki primative oxirgi ozgartirilgan malumotni hammasiga qollamayabdi non primativeda esa qollayabdi ikkallasi ham ozgargan
